@@ -35,7 +35,7 @@ import React from 'react'
                     </h2>
                     <ul>
                         {this.state.posts.slice(0, this.state.limit).map(post => <li key={post.id}>
-                            <Link to={`/posts/${post.id}`}      target="_blank">
+                            <Link to={`/posts/${post.id}`}      >
                                 {post.title}
                             </Link>
                         </li>)
